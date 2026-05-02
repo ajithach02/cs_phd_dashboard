@@ -1,0 +1,21 @@
+university,rank,state,stipend_monthly,cost_of_living_index,acceptance_rate,research_area,faculty_count,avg_time_to_degree
+MIT,1,MA,3800,100,4,Machine Learning,85,5.2
+Stanford,2,CA,3600,110,5,Machine Learning,90,5.1
+Carnegie Mellon,3,PA,3400,85,6,Systems,80,5.3
+UC Berkeley,4,CA,3500,115,7,Theory,75,5.4
+University of Illinois,5,IL,2800,75,10,Systems,70,5.5
+Cornell,6,NY,3000,88,8,Machine Learning,65,5.6
+University of Washington,7,WA,3200,95,9,NLP,72,5.3
+Georgia Tech,8,GA,2600,72,12,Robotics,68,5.4
+Princeton,9,NJ,3700,92,4,Theory,55,5.1
+University of Michigan,10,MI,2700,74,11,Systems,66,5.5
+UT Austin,11,TX,2500,71,13,Machine Learning,64,5.6
+Caltech,12,CA,3300,108,5,Theory,45,5.2
+Columbia,13,NY,3100,120,8,NLP,60,5.7
+UCLA,14,CA,2900,112,10,Machine Learning,62,5.5
+Harvard,15,MA,3600,105,4,Theory,50,5.3
+Purdue,16,IN,2400,68,14,Systems,58,5.6
+Ohio State,17,OH,2300,65,15,Machine Learning,55,5.7
+University of Wisconsin,18,WI,2500,70,13,NLP,57,5.5
+Penn State,19,PA,2200,67,16,Robotics,52,5.8
+Duke,20,NC,2800,78,9,Machine Learning,54,5.4
