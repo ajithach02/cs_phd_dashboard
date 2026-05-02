@@ -25,7 +25,7 @@ acceptance rates.
 
 ## How to Run
 
-streamlit run app.py
+streamlit run code/app.py
 
 Then open your browser to http://localhost:8501
 
