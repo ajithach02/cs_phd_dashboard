@@ -63,7 +63,7 @@ with tab1:
     st.subheader("Top Programs by Rank")
 
     # sort by rank so the best programs show at the top
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(10, 20))
     sorted_df = filtered_df.sort_values("rank")
     sns.barplot(data=sorted_df, x="rank", y="university", palette="Blues_r", ax=ax)
     ax.set_xlabel("Rank (lower is better)")
@@ -75,7 +75,7 @@ with tab1:
     st.subheader("Acceptance Rate by Program")
 
     # using the same sorted order so the schools line up consistently with the chart above
-    fig2, ax2 = plt.subplots(figsize=(10, 6))
+    fig2, ax2 = plt.subplots(figsize=(10, 20))
     sns.barplot(data=sorted_df, x="acceptance_rate", y="university", palette="Reds", ax=ax2)
     ax2.set_xlabel("Acceptance Rate (%)")
     ax2.set_ylabel("University")
@@ -86,9 +86,8 @@ with tab1:
 # TAB 2 — Stipend Analysis
 with tab2:
     st.subheader("Monthly Stipend by Program")
-
     # sort highest to lowest so the best paying schools are at the top
-    fig3, ax3 = plt.subplots(figsize=(10, 6))
+    fig3, ax3 = plt.subplots(figsize=(8, 35))
     sorted_stip = filtered_df.sort_values("stipend_monthly", ascending=False)
     sns.barplot(data=sorted_stip, x="stipend_monthly", y="university", palette="Greens_r", ax=ax3)
     ax3.set_xlabel("Monthly Stipend ($)")
@@ -98,30 +97,25 @@ with tab2:
     plt.close()
 
     st.subheader("Stipend vs Cost of Living")
+    # using plotly for interactive hover labels since there are 100 schools
+    import plotly.express as px
 
-    # scatter plot colored by rank — helps you see if higher ranked schools also pay more
-    fig4, ax4 = plt.subplots(figsize=(8, 6))
-    scatter = ax4.scatter(
-        filtered_df["cost_of_living_index"],
-        filtered_df["stipend_monthly"],
-        c=filtered_df["rank"],         # color each dot based on the school's rank
-        cmap="RdYlGn_r",               # red = high rank (worse), green = low rank (better)
-        s=100,
-        edgecolors="black",
-        linewidth=0.5
+    fig4 = px.scatter(
+        filtered_df,
+        x="cost_of_living_index",
+        y="stipend_monthly",
+        color="rank",
+        hover_name="university",  # shows university name on hover
+        hover_data=["research_area", "acceptance_rate", "stipend_monthly"],
+        color_continuous_scale="RdYlGn_r",
+        labels={
+            "cost_of_living_index": "Cost of Living Index",
+            "stipend_monthly": "Monthly Stipend ($)",
+            "rank": "Rank"
+        },
+        title="Stipend vs Cost of Living (hover for details)"
     )
-
-    # label each dot with the university name so you can tell them apart
-    for _, row in filtered_df.iterrows():
-        ax4.annotate(row["university"], (row["cost_of_living_index"], row["stipend_monthly"]),
-                     fontsize=7, ha="left", va="bottom")
-
-    plt.colorbar(scatter, ax=ax4, label="Rank")
-    ax4.set_xlabel("Cost of Living Index")
-    ax4.set_ylabel("Monthly Stipend ($)")
-    ax4.set_title("Stipend vs Cost of Living (color = rank)")
-    st.pyplot(fig4)
-    plt.close()
+    st.plotly_chart(fig4, use_container_width=True)
 
 # TAB 3 — Research Areas
 with tab3:

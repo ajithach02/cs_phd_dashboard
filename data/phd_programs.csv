@@ -19,3 +19,83 @@ Ohio State,17,OH,2300,65,15,Machine Learning,55,5.7
 University of Wisconsin,18,WI,2500,70,13,NLP,57,5.5
 Penn State,19,PA,2200,67,16,Robotics,52,5.8
 Duke,20,NC,2800,78,9,Machine Learning,54,5.4
+Brown University,21,RI,2900,95,10,Theory,42,5.5
+Rice University,22,TX,2700,75,11,Systems,38,5.4
+University of Maryland,23,MD,3000,98,12,Machine Learning,61,5.6
+Yale University,24,CT,3200,102,6,Theory,35,5.3
+New York University,25,NY,3200,120,10,Machine Learning,58,5.5
+UC San Diego,26,CA,3100,108,11,Systems,67,5.4
+University of Massachusetts Amherst,27,MA,2600,80,13,NLP,50,5.6
+Virginia Tech,28,VA,2200,65,16,Systems,48,5.7
+USC,29,CA,2800,112,12,Robotics,55,5.6
+Northeastern University,30,MA,2700,105,14,Systems,44,5.5
+University of Colorado Boulder,31,CO,2500,85,15,Machine Learning,42,5.7
+Arizona State University,32,AZ,2100,72,18,Machine Learning,46,5.8
+UC Santa Barbara,33,CA,2800,110,10,Systems,40,5.5
+University of Florida,34,FL,2200,70,17,Machine Learning,45,5.8
+Rutgers University,35,NJ,2600,95,15,Theory,42,5.7
+University of North Carolina,36,NC,2500,74,14,Machine Learning,40,5.6
+Stony Brook University,37,NY,2400,92,16,Systems,38,5.8
+Texas A&M University,38,TX,2300,68,17,Machine Learning,50,5.7
+University of Pittsburgh,39,PA,2300,72,16,Systems,36,5.8
+Indiana University,40,IN,2200,66,18,NLP,34,5.9
+University of Virginia,41,VA,2400,74,15,Machine Learning,38,5.7
+Washington University in St. Louis,42,MO,2600,78,12,Systems,36,5.5
+UC Irvine,43,CA,2700,105,14,Machine Learning,44,5.6
+Michigan State University,44,MI,2200,67,18,Machine Learning,42,5.8
+University of Arizona,45,AZ,2100,70,19,NLP,36,5.9
+Vanderbilt University,46,TN,2500,76,13,Robotics,32,5.6
+University of Minnesota,47,MN,2400,78,16,Machine Learning,45,5.7
+Boston University,48,MA,2800,105,14,Systems,40,5.6
+Dartmouth College,49,NH,2900,88,8,Theory,28,5.4
+UC Davis,50,CA,2700,98,15,Systems,38,5.6
+Emory University,51,GA,2400,80,15,Machine Learning,30,5.7
+University of Rochester,52,NY,2500,82,14,NLP,32,5.6
+Case Western Reserve University,53,OH,2200,68,17,Systems,30,5.8
+Iowa State University,54,IA,2100,62,20,Machine Learning,34,5.9
+University of Iowa,55,IA,2100,63,20,Systems,30,5.9
+University of Utah,56,UT,2400,82,16,Robotics,36,5.7
+Georgetown University,57,DC,2900,118,12,NLP,26,5.6
+University of Tennessee,58,TN,2000,63,21,Machine Learning,30,6.0
+University of Delaware,59,DE,2300,85,17,Systems,26,5.8
+North Carolina State University,60,NC,2300,71,17,Machine Learning,42,5.7
+University of Connecticut,61,CT,2400,95,17,Machine Learning,30,5.8
+Lehigh University,62,PA,2200,80,18,Systems,24,5.9
+University of Notre Dame,63,IN,2500,74,14,Machine Learning,32,5.6
+Syracuse University,64,NY,2200,78,19,NLP,28,5.9
+University of Kansas,65,KS,2000,60,22,Systems,26,6.0
+Oregon State University,66,OR,2300,82,18,Machine Learning,30,5.8
+University of Oregon,67,OR,2200,84,19,NLP,26,5.9
+Washington State University,68,WA,2100,72,20,Systems,28,5.9
+University of Nebraska,69,NE,1900,60,23,Machine Learning,24,6.1
+University of Kentucky,70,KY,2000,61,22,Systems,26,6.0
+Drexel University,71,PA,2300,95,18,Machine Learning,28,5.9
+University of South Carolina,72,SC,2000,65,22,Systems,26,6.0
+Temple University,73,PA,2100,90,20,NLP,24,6.0
+University of Central Florida,74,FL,2000,72,21,Machine Learning,36,6.0
+Florida State University,75,FL,1900,68,23,Systems,26,6.1
+University of Alabama,76,AL,1900,60,24,Machine Learning,24,6.1
+Auburn University,77,AL,1900,61,23,Systems,26,6.1
+University of Missouri,78,MO,2000,63,22,NLP,24,6.0
+Kansas State University,79,KS,1900,58,24,Systems,22,6.1
+University of Arkansas,80,AR,1900,59,24,Machine Learning,22,6.1
+Colorado State University,81,CO,2200,80,19,Machine Learning,28,5.9
+University of New Mexico,82,NM,1900,65,24,Systems,22,6.1
+Mississippi State University,83,MS,1800,57,26,Machine Learning,20,6.2
+University of Mississippi,84,MS,1800,56,27,NLP,18,6.2
+University of Oklahoma,85,OK,1900,60,24,Systems,24,6.1
+Oklahoma State University,86,OK,1900,59,25,Machine Learning,22,6.1
+University of Nevada Las Vegas,87,NV,2000,88,22,Machine Learning,24,6.0
+University of Nevada Reno,88,NV,2000,80,22,Systems,22,6.0
+Tulane University,89,LA,2200,80,17,NLP,24,5.9
+Louisiana State University,90,LA,1900,62,24,Machine Learning,26,6.1
+University of Houston,91,TX,2100,72,20,Machine Learning,30,6.0
+University of Texas Dallas,92,TX,2200,74,19,Systems,32,5.9
+University of Texas Arlington,93,TX,2000,70,21,Machine Learning,28,6.0
+Rensselaer Polytechnic Institute,94,NY,2400,82,15,Robotics,30,5.7
+Stevens Institute of Technology,95,NJ,2500,110,16,Systems,26,5.8
+New Jersey Institute of Technology,96,NJ,2300,100,18,Machine Learning,28,5.9
+Illinois Institute of Technology,97,IL,2200,88,19,Systems,26,5.9
+Worcester Polytechnic Institute,98,MA,2500,95,15,Robotics,28,5.7
+George Mason University,99,VA,2400,98,17,Machine Learning,34,5.8
+George Washington University,100,DC,2800,118,14,NLP,28,5.7
