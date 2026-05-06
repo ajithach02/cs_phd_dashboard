@@ -39,7 +39,7 @@ cs_phd_dashboard/
 ├── app.py                   Main Streamlit dashboard
 ├── README.md                This file
 ├── data/
-│   └── phd_programs.csv     Dataset of 20 CS PhD programs
+│   └── phd_programs.csv     Dataset of 100 CS PhD programs
 ├── tests/
 │   └── test_data.py         Unit tests for data loading and filtering
 ├── docs/                    Screenshots
